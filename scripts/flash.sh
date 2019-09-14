@@ -4,15 +4,15 @@ set -e
 
 # -- logging helpers
 info () {
-    echo "[*]  $@"
+    echo "[*]  " "$@"
 }
 
 warn () {
-    echo "[!]  $@"
+    echo "[!]  " "$@"
 }
 
 err () {
-    echo "[x]  $@"
+    echo "[x]  " "$@"
 }
 
 prompt () {

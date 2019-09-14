@@ -18,13 +18,13 @@ err () {
 prompt () {
     local msg="$1"
     local var="$2"
-    read -p "[?]  ${msg}: " -r "$var"
+    read -p "[?]  ${msg}: " -r "${var?}"
 }
 
 secure_prompt () {
     local msg="$1"
     local var="$2"
-    read -p "[?]  ${msg}: " -s -r "$var"
+    read -p "[?]  ${msg}: " -s -r "${var?}"
     echo
 }
 

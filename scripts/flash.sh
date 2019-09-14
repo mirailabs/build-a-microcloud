@@ -4,15 +4,15 @@ set -e
 
 # -- logging helpers
 info () {
-    echo "[*]  " "$@"
+    echo "[*] " "$@"
 }
 
 warn () {
-    echo "[!]  " "$@"
+    echo "[!] " "$@"
 }
 
 err () {
-    echo "[x]  " "$@"
+    echo "[x] " "$@"
 }
 
 prompt () {
@@ -30,10 +30,10 @@ secure_prompt () {
 
 echo_flash_warning () {
     warn
-    warn ' WARNING -------------------------------------------------------------- '
-    warn ' Please double-check you are flashing the right device for your sdcard! '
-    warn ' You can easily do this with lsblk.                                     '
-    warn ' ---------------------------------------------------------------------- '
+    warn 'WARNING --------------------------------------------------------------'
+    warn 'Please double-check you are flashing the right device for your sdcard!'
+    warn 'You can easily do this with lsblk.                                    '
+    warn '----------------------------------------------------------------------'
     warn
 }
 

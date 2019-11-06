@@ -1,3 +1,3 @@
-# Build a cloud
+# Build a (mini) cloud
 
-Resources to build your own clouds!
+Resources to build your own miniclouds!
